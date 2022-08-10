@@ -5,6 +5,7 @@ import projectImg1 from "../../styles/images/resource/project-1-1.jpg"
 import projectImg2 from "../../styles/images/resource/project-1-2.jpg"
 import projectImg3 from "../../styles/images/resource/project-1-3.jpg"
 import projectImg4 from "../../styles/images/resource/project-1-4.jpg"
+import {AiOutlineArrowRight} from "react-icons/ai"
 
 const Projects = () => {
     console.log(projBg.src);
@@ -34,7 +35,7 @@ const Projects = () => {
                             <h3 className="project-one__title"><a href="project-details.html">Grocery Waste Removal</a>
                             </h3>
                             <div className="project-one__arrow">
-                                <a href="project-details.html"><i className="fa fa-arrow-right"></i></a>
+                                <a href="project-details.html"><AiOutlineArrowRight size={20}/></a>
                             </div>
                         </div>
                     </div>
@@ -49,7 +50,7 @@ const Projects = () => {
                             <p className="project-one__sub-title">Waste Pickup</p>
                             <h3 className="project-one__title"><a href="project-details.html">Home Trash Picked</a></h3>
                             <div className="project-one__arrow">
-                                <a href="project-details.html"><i className="fa fa-arrow-right"></i></a>
+                            <a href="project-details.html"><AiOutlineArrowRight size={20}/></a>
                             </div>
                         </div>
                     </div>
@@ -65,7 +66,7 @@ const Projects = () => {
                             <h3 className="project-one__title"><a href="project-details.html">Construction
                                     Collection</a></h3>
                             <div className="project-one__arrow">
-                                <a href="project-details.html"><i className="fa fa-arrow-right"></i></a>
+                            <a href="project-details.html"><AiOutlineArrowRight size={20}/></a>
                             </div>
                         </div>
                     </div>
