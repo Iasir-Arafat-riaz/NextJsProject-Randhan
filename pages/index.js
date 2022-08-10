@@ -23,7 +23,7 @@ import BrandsServed from "../components/Home/BrandsServed/BrandsServed";
 export default function Home() {
   return (
     <>
-      {/* here all component render */}
+      
       <Slider/>
       <FeatureOne/>
       <LeadingManagement />
