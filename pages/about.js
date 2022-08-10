@@ -1,3 +1,4 @@
+import AlwaysWorking from "../components/About/AlwaysWorking";
 import ExpertStaff from "../components/About/ExpertStaff";
 import HomeOrBusiness from "../components/About/HomeOrBusiness";
 import WhyChossUs from "../components/About/WhyChossUs";
@@ -8,6 +9,7 @@ import Testimonial from "../components/Home/Testimonial";
 function About() {
   return (
     <>
+    <AlwaysWorking/>
     <BrandsServed/>
       <Testimonial />
       <ExpertStaff/>

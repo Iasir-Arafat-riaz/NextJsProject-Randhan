@@ -11848,7 +11848,7 @@ ul {
 }
 
 .always-working__content h3 {
-  font-size: 34px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 36px;
 }
@@ -12542,6 +12542,15 @@ li {
   .hero-section h1 {
     font-size: 3.8rem;
   }
+}
+
+.brandSliders img{
+  opacity:.5;
+}
+.brandSliders img:hover{
+  opacity:1;
+  transition: all 1s;
+
 }
 
 .indImg {
