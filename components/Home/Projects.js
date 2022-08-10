@@ -82,7 +82,7 @@ const Projects = () => {
                             <h3 className="project-one__title"><a href="project-details.html">Business Waste Pickup</a>
                             </h3>
                             <div className="project-one__arrow">
-                                <a href="project-details.html"><i className="fa fa-arrow-right"></i></a>
+                            <a href="project-details.html"><AiOutlineArrowRight size={20}/></a>
                             </div>
                         </div>
                     </div>
