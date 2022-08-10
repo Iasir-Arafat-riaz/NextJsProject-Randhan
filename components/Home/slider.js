@@ -16,6 +16,7 @@ import fifth from"../../styles/images/background/main-slider-2-2.jpg"
 import sixth from"../../styles/images/background/main-slider-2-3.jpg"
 
 function Slider(){
+  console.log(first);
 
     return <>
      <Swiper
@@ -35,7 +36,7 @@ function Slider(){
         >
         {/* https://i.ibb.co/wy6wQr4/main-slider-1-1.jpg */}
         {/* <SwiperSlide ><div style={{backgroundImage:"url(https://i.ibb.co/wy6wQr4/main-slider-1-1.jpg)"}}></div></SwiperSlide> */}
-        <SwiperSlide><Image src={first}/></SwiperSlide>
+        <SwiperSlide > <Image src={first}/> </SwiperSlide>
         <SwiperSlide><Image src={second}/></SwiperSlide>
         <SwiperSlide><Image src={third}/></SwiperSlide>
         <SwiperSlide><Image src={fourth}/></SwiperSlide>

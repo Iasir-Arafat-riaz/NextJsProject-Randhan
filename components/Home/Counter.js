@@ -4,7 +4,7 @@ import counterImg from "../../styles/images/background/counter-one-bg.jpg"
 const Counter = () => {
     const bgStyle = require("../../styles/images/background/counter-one-bg.jpg");
     console.log(counterImg.src);
-    const bgStyling ={backgroundImage:`url(${counterImg.src})`}
+    const bgStyling ={backgroundImage:`url(${counterImg.src})`,backgroundAttachment:"fixed"}
     return (
         <section className="counter-one">
         <div className="counter-one-bg-box">
