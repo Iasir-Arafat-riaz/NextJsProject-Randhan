@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import bg from "./footerImg/site-footer-bg.jpg";
 import footerLogo from "./footerImg/footer-logo.png";
+
+
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

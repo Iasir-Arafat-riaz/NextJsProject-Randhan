@@ -3,7 +3,10 @@ import React from "react";
 import industryImg1 from "../../styles/images/resource/industy-page-header-img.jpg";
 import industryImg2 from "../../styles/images/resource/industries-1-2.jpg";
 import industryImg3 from "../../styles/images/resource/industries-1-3.jpg";
-
+import {FaHotel} from "react-icons/fa"
+import {FaStethoscope} from "react-icons/fa"
+import {SiHomeassistantcommunitystore} from "react-icons/si"
+import {AiOutlineArrowRight} from "react-icons/ai"
 const Industries = () => {
   const img = require("../../styles/images/background/industries-one-bg.jpg");
   //   console.log(img.default.src);
@@ -30,7 +33,7 @@ const Industries = () => {
 
               <div className="industries-one__content">
                 <div className="industries-one__icon">
-                  <span className="icon-shop"></span>
+                  <span className="icon-shop"><FaHotel/></span>
                 </div>
                 <h3 className="industries-one__title">
                   <a href="industry-details.html">Hotel & Restaurant</a>
@@ -41,7 +44,7 @@ const Industries = () => {
                 </p>
                 <div className="industries-one__arrow">
                   <a href="industry-details.html">
-                    <i className="fa fa-arrow-right"></i>
+                  <i ><AiOutlineArrowRight size={20}/></i>
                   </a>
                 </div>
               </div>
@@ -57,7 +60,7 @@ const Industries = () => {
               </div>
               <div className="industries-one__content">
                 <div className="industries-one__icon">
-                  <span className="icon-grocery"></span>
+                  <span className="icon-grocery"><FaStethoscope/></span>
                 </div>
                 <h3 className="industries-one__title">
                   <a href="industry-details.html">Medical & Hospital</a>
@@ -68,7 +71,7 @@ const Industries = () => {
                 </p>
                 <div className="industries-one__arrow">
                   <a href="industry-details.html">
-                    <i className="fa fa-arrow-right"></i>
+                  <i ><AiOutlineArrowRight size={20}/></i>
                   </a>
                 </div>
               </div>
@@ -84,7 +87,7 @@ const Industries = () => {
               </div>
               <div className="industries-one__content">
                 <div className="industries-one__icon">
-                  <span className="icon-grocery"></span>
+                  <span className="icon-grocery"><SiHomeassistantcommunitystore/></span>
                 </div>
                 <h3 className="industries-one__title">
                   <a href="industry-details.html">Grocery Stores</a>
@@ -95,7 +98,7 @@ const Industries = () => {
                 </p>
                 <div className="industries-one__arrow">
                   <a href="industry-details.html">
-                    <i className="fa fa-arrow-right"></i>
+                  <i ><AiOutlineArrowRight size={20}/></i>
                   </a>
                 </div>
               </div>

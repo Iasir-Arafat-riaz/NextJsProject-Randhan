@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import weDecImg1 from "../../styles/images/resource/we-dedicated-img.jpg"
+import weDecImg1 from "../../styles/images/resource/we-dedicated-img.jpg";
+import {BiRightArrow} from "react-icons/bi"
 
 const WeDecided = () => {
     return (
@@ -43,8 +44,8 @@ const WeDecided = () => {
                                 <div className="we-dedicated__video-link">
                                     <a  href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
                                         <div className="we-dedicated__video-icon">
-                                            <span className="fa fa-play"></span>
-                                            <i className="ripple">1</i>
+                                            <span className="fa fa-play"><BiRightArrow/></span>
+                                            <i className="ripple"></i>
                                         </div>
                                     </a>
                                 </div>

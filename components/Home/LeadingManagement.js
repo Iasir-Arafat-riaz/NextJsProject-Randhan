@@ -5,6 +5,8 @@ import leadingImg from "../../styles/images/resource/leading-waste-img-1.jpg"
 import leadingImgShape from "../../styles/images/resource/leading-waste-img-shape-1.png"
 import leadingImgShapeDots from "../../styles/images/resource/leading-waste-dots.png"
 
+import {TiTick} from "react-icons/ti"
+
 const LeadingManagement = () => {
     return (
         <section className="leading-waste">
@@ -44,15 +46,15 @@ const LeadingManagement = () => {
                             <ul className="list-unstyled leading-waste__points">
                                 <li>
                                     <div className="icon">
-                                        <span className="fa fa-check"></span>
+                                        <span className="fa fa-check"> <TiTick size={70}/></span>
                                     </div>
                                     <div className="text">
-                                        <p>Lorem Ipsum is not simply random text</p>
+ <p>Lorem Ipsum is not simply random text</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="icon">
-                                        <span className="fa fa-check"></span>
+                                        <span className="fa fa-check"><TiTick size={70}/></span>
                                     </div>
                                     <div className="text">
                                         <p>Making this the first true generator on the Internet</p>
@@ -60,7 +62,7 @@ const LeadingManagement = () => {
                                 </li>
                                 <li>
                                     <div className="icon">
-                                        <span className="fa fa-check"></span>
+                                        <span className="fa fa-check"><TiTick size={70}/></span>
                                     </div>
                                     <div className="text">
                                         <p>Various versions have evolved over the years</p>

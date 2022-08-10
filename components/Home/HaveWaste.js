@@ -1,4 +1,5 @@
 import React from 'react';
+import {FiPhoneCall} from "react-icons/fi"
 
 const HaveWaste = () => {
     return (
@@ -8,7 +9,7 @@ const HaveWaste = () => {
                 <div className="have-waste__left">
                     <h3 className="have-waste__content">Have Waste/Pickup?</h3>
                     <div className="have-waste__icon">
-                        <span className="icon-phone-ringing"></span>
+                        <span className="icon-phone-ringing"><FiPhoneCall/></span>
                     </div>
                 </div>
                 <div className="have-waste__right">

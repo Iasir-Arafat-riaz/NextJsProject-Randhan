@@ -5,6 +5,10 @@ import serviceImg1 from "../../styles/images/services/services-1-1.jpg"
 import serviceImg2 from "../../styles/images/services/services-1-2.jpg"
 import serviceImg3 from "../../styles/images/services/services-1-3.jpg"
 import serviceImg4 from "../../styles/images/services/services-1-4.jpg"
+import {GiSwapBag} from "react-icons/gi"
+import {FaDumpster} from "react-icons/fa"
+import {FaToilet} from "react-icons/fa"
+import {GiWaterRecycling} from "react-icons/gi"
 
 const Services = () => {
     return (
@@ -40,7 +44,7 @@ const Services = () => {
                                     <Image src={serviceImgCom} alt="img"/>
                                 </div>
                                 <div className="services-one__icon">
-                                    <span className="icon-garbage-1"></span>
+                                    <span className="icon-garbage-1"><GiSwapBag/></span>
                                 </div>
                             </div>
                             <div className="services-one__content-box">
@@ -63,7 +67,7 @@ const Services = () => {
                                 <Image src={serviceImgCom} alt="img"/>
                                 </div>
                                 <div className="services-one__icon">
-                                    <span className="icon-dumpster"></span>
+                                    <span className="icon-dumpster"><FaDumpster/></span>
                                 </div>
                             </div>
                             <div className="services-one__content-box">
@@ -87,7 +91,7 @@ const Services = () => {
                                 <Image src={serviceImgCom} alt="img"/>
                                 </div>
                                 <div className="services-one__icon">
-                                    <span className="icon-portable-toilets"></span>
+                                    <span className="icon-portable-toilets"><FaToilet/></span>
                                 </div>
                             </div>
                             <div className="services-one__content-box">
@@ -111,7 +115,7 @@ const Services = () => {
                                 <Image src={serviceImgCom} alt="img"/>
                                 </div>
                                 <div className="services-one__icon">
-                                    <span className="icon-triangular-arrows-sign-for-recycle"></span>
+                                    <span className="icon-triangular-arrows-sign-for-recycle"><GiWaterRecycling/></span>
                                 </div>
                             </div>
                             <div className="services-one__content-box">

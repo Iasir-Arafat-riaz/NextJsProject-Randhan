@@ -27,9 +27,9 @@
   --wostin-white-rgb: 255, 255, 255;
   --wostin-black: #404a3d;
   --wostin-black-rgb: 64, 74, 61;
-  --wostin-base: #558e4c;
+  --wostin-base: #95192A;
   --wostin-base-rgb: 85, 142, 76;
-  --wostin-primary: #ecdd5e;
+  --wostin-primary: #DCB466;
   --wostin-primary-rgb: 236, 221, 94;
   --wostin-extra: #f5f0e9;
   --wostin-extra-rgb: 245, 240, 233;
@@ -2579,7 +2579,7 @@ ul {
 }
 
 .feature-one__title {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 40px;
   margin-top: 3px;
