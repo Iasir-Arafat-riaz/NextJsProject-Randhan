@@ -4,6 +4,11 @@ import staffShape from "../../styles/images/shapes/team-one-shape.png";
 import staff1 from "../../styles/images/team/team-1-1.jpg";
 import staff2 from "../../styles/images/team/team-1-2.jpg";
 import staff3 from "../../styles/images/team/team-1-3.jpg";
+import {AiOutlineArrowRight} from "react-icons/ai"
+import {BsFacebook} from "react-icons/bs"
+import {BsPinterest} from "react-icons/bs"
+import {AiFillTwitterCircle} from "react-icons/ai"
+import {AiFillInstagram} from "react-icons/ai"
 
 const ExpertStaff = () => {
   return (
@@ -32,21 +37,21 @@ const ExpertStaff = () => {
                 <div className="team-one__social-box">
                   <div className="team-one__social">
                     <a href="#">
-                      <i className="fab fa-facebook"></i>
+                      <BsFacebook/>
                     </a>
                     <a href="#">
-                      <i className="fab fa-twitter"></i>
+                     <AiFillTwitterCircle size={20}/>
                     </a>
                     <a href="#">
-                      <i className="fab fa-pinterest-p"></i>
+                     <BsPinterest/>
                     </a>
                     <a href="#">
-                      <i className="fab fa-instagram"></i>
+                      <AiFillInstagram size={20}/>
                     </a>
                   </div>
                   <div className="team-one__arrow">
                     <a href="staff-details.html">
-                      <i className="fa fa-arrow-right"></i>
+                    <AiOutlineArrowRight size={20}/>
                     </a>
                   </div>
                 </div>
@@ -69,23 +74,23 @@ const ExpertStaff = () => {
                 <p className="team-one__title">Co Founder</p>
                 <h3 className="team-one__name">Jessica Brow</h3>
                 <div className="team-one__social-box">
-                  <div className="team-one__social">
+                <div className="team-one__social">
                     <a href="#">
-                      <i className="fab fa-facebook"></i>
+                      <BsFacebook/>
                     </a>
                     <a href="#">
-                      <i className="fab fa-twitter"></i>
+                     <AiFillTwitterCircle size={20}/>
                     </a>
                     <a href="#">
-                      <i className="fab fa-pinterest-p"></i>
+                     <BsPinterest/>
                     </a>
                     <a href="#">
-                      <i className="fab fa-instagram"></i>
+                      <AiFillInstagram size={20}/>
                     </a>
                   </div>
                   <div className="team-one__arrow">
                     <a href="staff-details.html">
-                      <i className="fa fa-arrow-right"></i>
+                    <AiOutlineArrowRight size={20}/>
                     </a>
                   </div>
                 </div>
@@ -108,23 +113,23 @@ const ExpertStaff = () => {
                 <p className="team-one__title">Senior Assistant</p>
                 <h3 className="team-one__name">David Cooper</h3>
                 <div className="team-one__social-box">
-                  <div className="team-one__social">
+                <div className="team-one__social">
                     <a href="#">
-                      <i className="fab fa-facebook"></i>
+                      <BsFacebook/>
                     </a>
                     <a href="#">
-                      <i className="fab fa-twitter"></i>
+                     <AiFillTwitterCircle size={20}/>
                     </a>
                     <a href="#">
-                      <i className="fab fa-pinterest-p"></i>
+                     <BsPinterest/>
                     </a>
                     <a href="#">
-                      <i className="fab fa-instagram"></i>
+                      <AiFillInstagram size={20}/>
                     </a>
                   </div>
                   <div className="team-one__arrow">
                     <a href="staff-details.html">
-                      <i className="fa fa-arrow-right"></i>
+                    <AiOutlineArrowRight size={20}/>
                     </a>
                   </div>
                 </div>

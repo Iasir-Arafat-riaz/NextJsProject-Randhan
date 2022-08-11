@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import AlwaysWorkingImg from "../../public/Images/resources/always-working-img.jpg"
+import {TiTick} from "react-icons/ti"
 
 const AlwaysWorking = () => {
     return (
@@ -19,7 +20,7 @@ const AlwaysWorking = () => {
                             <ul className="list-unstyled always-working__points">
                                 <li>
                                     <div className="icon">
-                                        <span className="fa fa-check"></span>
+                                        <span ><TiTick size={70}/></span>
                                     </div>
                                     <div className="text">
                                         <p>Lorem Ipsum is not simply random text</p>
@@ -27,7 +28,7 @@ const AlwaysWorking = () => {
                                 </li>
                                 <li>
                                     <div className="icon">
-                                        <span className="fa fa-check"></span>
+                                        <span ><TiTick size={70}/></span>
                                     </div>
                                     <div className="text">
                                         <p>Making this the first true generator on the Internet</p>

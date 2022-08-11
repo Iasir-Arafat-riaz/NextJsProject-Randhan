@@ -1,4 +1,7 @@
 import React from 'react';
+import {MdOutlineForwardToInbox} from "react-icons/md"
+import {BiPhoneCall} from "react-icons/bi"
+import {MdLocationOn} from "react-icons/md"
 
 const ContactWithUs = () => {
     return (
@@ -16,7 +19,7 @@ const ContactWithUs = () => {
                         <ul className="list-unstyled contact-one__info">
                             <li>
                                 <div className="icon">
-                                    <span className="icon-message"></span>
+                                    <span className="icon-message"><BiPhoneCall size={50}/></span>
                                 </div>
                                 <div className="text">
                                     <p>Call Anytime</p>
@@ -25,7 +28,7 @@ const ContactWithUs = () => {
                             </li>
                             <li>
                                 <div className="icon">
-                                    <span className="icon-phone-call"></span>
+                                    <span className="icon-phone-call"><MdOutlineForwardToInbox size={50}/></span>
                                 </div>
                                 <div className="text">
                                     <p>Write Email</p>
@@ -34,7 +37,7 @@ const ContactWithUs = () => {
                             </li>
                             <li>
                                 <div className="icon">
-                                    <span className="icon-placeholder"></span>
+                                    <span className="icon-placeholder"><MdLocationOn size={50}/></span>
                                 </div>
                                 <div className="text">
                                     <p>Visit Us Anytime</p>
