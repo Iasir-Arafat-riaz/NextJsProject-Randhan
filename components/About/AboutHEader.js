@@ -1,5 +1,6 @@
 import React from 'react';
 import aboutHeaderImg from "../../public/Images/backgroundImg/page-header-bg.jpg"
+import Link from "next/link";
 
 const AboutHEader = () => {
     return (
@@ -10,7 +11,7 @@ const AboutHEader = () => {
                 <div className="page-header__inner">
                     <h2>About Us</h2>
                     <ul className="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><Link href="/"><a >Home</a></Link></li>
                         <li>About</li>
                     </ul>
                 </div>

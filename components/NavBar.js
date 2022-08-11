@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import navLogo from "../styles/images/logo-1.png";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 import {
   FaFacebookSquare,
   FaInstagramSquare,
@@ -13,9 +13,9 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const NavBar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   const router = useRouter();
-  const goHome=()=>{
-    router.push("/")
-  }
+  const goHome = () => {
+    router.push("/");
+  };
   return (
     <div>
       <nav className="main-nav">
@@ -46,7 +46,7 @@ const NavBar = () => {
             <li>
               <Link href="/career">Career</Link>
             </li>
-            
+
             <li>
               <Link href="/contact">contact</Link>
             </li>

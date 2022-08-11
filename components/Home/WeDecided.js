@@ -42,7 +42,7 @@ const WeDecided = () => {
                                 data-wow-duration="2500ms">
                                 <Image src={weDecImg1} alt="dec1"/>
                                 <div className="we-dedicated__video-link">
-                                    <a  href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=Get7rqXYrbQ" rel="noopener noreferrer" className="video-popup">
                                         <div className="we-dedicated__video-icon">
                                             <span className="fa fa-play"><BiRightArrow/></span>
                                             <i className="ripple"></i>

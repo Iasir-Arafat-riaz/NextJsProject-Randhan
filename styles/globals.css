@@ -5224,9 +5224,9 @@ ul {
 }
 
 .manage-waste__title {
-  font-size: 70px;
+  font-size: 40px;
   color: var(--wostin-white);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 70px;
 }
 

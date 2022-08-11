@@ -1,9 +1,11 @@
 import React from 'react';
+import BrandsServed from '../components/Home/BrandsServed/BrandsServed';
 
 const RecentStories = () => {
     return (
         <div>
-            <h1 className="text-center">RecentStories Component</h1>
+            
+            <BrandsServed/>
         </div>
     );
 };

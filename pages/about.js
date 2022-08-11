@@ -13,9 +13,10 @@ function About() {
     <>
     <AboutHEader/>
     <AlwaysWorking/>
-    <BrandsServed/>
+    {/* <BrandsServed/> */}
     <AboutMiddleBg/>
       <Testimonial />
+      <BrandsServed/>
       <ExpertStaff/>
       {/* <WhyChossUs/> */}
       <HomeOrBusiness/>

@@ -23,7 +23,6 @@ import BrandsServed from "../components/Home/BrandsServed/BrandsServed";
 export default function Home() {
   return (
     <>
-      
       <Slider/>
       <FeatureOne/>
       <LeadingManagement />
