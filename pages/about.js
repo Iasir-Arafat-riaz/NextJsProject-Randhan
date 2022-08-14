@@ -5,21 +5,20 @@ import HomeOrBusiness from "../components/About/HomeOrBusiness";
 import WhyChossUs from "../components/About/WhyChossUs";
 import BrandsServed from "../components/Home/BrandsServed/BrandsServed";
 import Testimonial from "../components/Home/Testimonial";
-import AboutHEader from './../components/About/AboutHEader';
-
+import AboutHEader from "./../components/About/AboutHEader";
 
 function About() {
   return (
     <>
-    <AboutHEader/>
-    <AlwaysWorking/>
-    {/* <BrandsServed/> */}
-    <AboutMiddleBg/>
+      <AboutHEader />
+      <AlwaysWorking />
+      {/* <BrandsServed/> */}
+      <AboutMiddleBg />
       <Testimonial />
-      <BrandsServed/>
-      <ExpertStaff/>
+      <BrandsServed />
+      <ExpertStaff />
       {/* <WhyChossUs/> */}
-      <HomeOrBusiness/>
+      <HomeOrBusiness />
     </>
   );
 }
