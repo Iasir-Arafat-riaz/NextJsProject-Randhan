@@ -66,7 +66,7 @@ const Industries = () => {
                   <a href="industry-details.html">Medical & Hospital</a>
                 </h3>
                 <p className="industries-one__text">
-                  Sed quia magni dolores eos ratione voluptatem sequi site, qui
+                  Sed quia magni dolores eos ratione voluptatem sequi site, qu
                   nesciunt eque sit porro.
                 </p>
                 <div className="industries-one__arrow">

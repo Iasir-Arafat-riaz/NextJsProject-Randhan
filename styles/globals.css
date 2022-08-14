@@ -27,9 +27,9 @@
   --wostin-white-rgb: 255, 255, 255;
   --wostin-black: #404a3d;
   --wostin-black-rgb: 64, 74, 61;
-  --wostin-base: #95192A;
+  --wostin-base: #95192a;
   --wostin-base-rgb: 85, 142, 76;
-  --wostin-primary: #DCB466;
+  --wostin-primary: #dcb466;
   --wostin-primary-rgb: 236, 221, 94;
   --wostin-extra: #f5f0e9;
   --wostin-extra-rgb: 245, 240, 233;
@@ -12292,7 +12292,7 @@ li {
   /* background-color: #3b5998; */
   grid-column: 1/3;
   justify-content: start;
-  align-items: center; 
+  align-items: center;
 }
 
 .menu-link {
@@ -12411,7 +12411,6 @@ li {
   .menu-link ul,
   .social-media ul {
     display: none;
-    
   }
 }
 
@@ -12546,13 +12545,12 @@ li {
   }
 }
 
-.brandSliders img{
-  opacity:.5;
+.brandSliders img {
+  opacity: 0.5;
 }
-.brandSliders img:hover{
-  opacity:1;
+.brandSliders img:hover {
+  opacity: 1;
   transition: all 1s;
-
 }
 
 .indImg {
