@@ -230,10 +230,11 @@ const Footer = () => {
           ></div>
           <div className="container">
             <div className="row">
+              
               <div className="col-xl-12">
                 <div className="site-footer__bottom-inner">
                   <p className="site-footer__bottom-text">
-                    © Copyright 2022 by <a href="#">Layerdrops.com</a>
+                    © Copyright 2022 by <a href="#">Randhan.com</a>
                   </p>
                 </div>
               </div>

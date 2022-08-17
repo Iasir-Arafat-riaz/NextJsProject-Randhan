@@ -4692,7 +4692,7 @@ ul {
 }
 
 .footer-widget__title {
-  font-size: 34px;
+  font-size: 24px;
   color: var(--wostin-white);
   line-height: 34px;
   font-weight: 700;
@@ -4711,7 +4711,7 @@ ul {
 
 .footer-widget__links-list li a {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   color: #a5b9ad;
   font-weight: 500;
   padding-left: 21px;
@@ -4757,7 +4757,7 @@ ul {
 
 .footer-widget__services-list li a {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   color: #a5b9ad;
   font-weight: 500;
   padding-left: 21px;
@@ -4794,6 +4794,7 @@ ul {
 .footer-widget__contact-text {
   color: #b0baae;
   line-height: 28px;
+  font-size: 14px;
 }
 
 .footer-widget__contact-info {
@@ -4827,7 +4828,7 @@ ul {
 }
 
 .footer-widget__contact-mail-phone {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -4874,11 +4875,11 @@ ul {
   position: relative;
   display: block;
   text-align: center;
-  padding: 35px 0;
+  /* padding: 35px 0; */
 }
 
 .site-footer__bottom-text {
-  font-size: 16px;
+  font-size: 11px;
   color: #b0baae;
   font-weight: 500;
   margin: 0;
@@ -12555,6 +12556,10 @@ li {
 
 .indImg {
   /* width: 200px !important; */
+}
+ .activeu a{
+color: crimson !important;
+
 }
 
 /*# sourceMappingURL=wostin.css.map */

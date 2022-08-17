@@ -11,6 +11,7 @@ import {
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavBar = () => {
+  
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   const router = useRouter();
   const goHome = () => {
@@ -31,23 +32,23 @@ const NavBar = () => {
           }
         >
           <ul>
-            <li>
+            <li  className={router.pathname == "/" ? "activeu" : ""}>
               <Link href="/">Home</Link>
             </li>
-            <li>
+            <li  className={router.pathname == "/about" ? "activeu" : ""}>
               <Link href="/about">about</Link>
             </li>
-            <li>
+            <li className={router.pathname == "/recentStories" ? "activeu" : ""}>
               <Link href="/recentStories">RecentStories</Link>
             </li>
-            <li>
+            <li className={router.pathname == "/sustainability" ? "activeu" : ""}>
               <Link href="/sustainability">Sustainability</Link>
             </li>
-            <li>
+            <li className={router.pathname == "/career" ? "activeu" : ""}>
               <Link href="/career">Career</Link>
             </li>
 
-            <li>
+            <li className={router.pathname == "/contact" ? "activeu" : ""}>
               <Link href="/contact">contact</Link>
             </li>
           </ul>
