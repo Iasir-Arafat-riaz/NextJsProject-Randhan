@@ -12558,8 +12558,15 @@ li {
   /* width: 200px !important; */
 }
  .activeu a{
-color: crimson !important;
+color: var(--wostin-base) !important;
 
 }
 
+.careerHeaderDiv{
+  padding: 50px 250px;
+  letter-spacing:1px;
+  overflow-y:scroll; 
+    position:relative;
+    height:600px;
+}
 /*# sourceMappingURL=wostin.css.map */
