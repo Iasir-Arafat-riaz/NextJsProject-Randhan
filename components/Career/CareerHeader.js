@@ -4,28 +4,15 @@ import careerHeaderImg from "../../public/Images/backgroundImg/banner-career.jpg
 
 const CareerHeader = () => {
   return (
-    <section
-      style={{
-        backgroundImage: `url(${careerHeaderImg.src})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        width: "100vw",
-        height: "100vh",
-        // opacity:".5"
-      }}
-    >
+    <section className="career-header">
       <div
-      className="careerHeaderDiv"
-        style={{
-         
-          
-          textAlign: "justify",
-          textShadow: "2px 2px black"
-        }}
-      >
-        <h1 className="text-light pt-5 text-center">JOIN RANDHAN FAMILY</h1>
-        <h5 className="text-light pt-2  " >
+        className="career-header-bg"
+        style={{ backgroundImage: `url(${careerHeaderImg.src})` }}
+      ></div>
+      <div className="container">
+       <div className="page-header__inner careerHeaderDiv">
+       <h1 className="text-light pt-5 text-center">JOIN WITH RANDHAN FAMILY</h1>
+        <h5 className="text-light pt-3  " >
           RANDHAN works toward the digitalization of the future.
           As entrepreneurs, we offer services with innovation and deliver
           end-to-end solutions for our clients. To transform the businesses in
@@ -37,8 +24,10 @@ const CareerHeader = () => {
           knowledge is continual, hence we are devoted to take part in advancing
           the future of our our purpose and values. You can learn more about 
         </h5>
+       </div>
       </div>
     </section>
+    
   );
 };
 
