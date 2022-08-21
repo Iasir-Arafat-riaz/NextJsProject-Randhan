@@ -69,7 +69,7 @@ const LeadingManagement = () => {
                                     </div>
                                 </li>
                             </ul>
-                            <Link href="about"><a  className="thm-btn">Discover More</a></Link>
+                            <Link href="about"><a  className="thm-btn">Details</a></Link>
                         </div>
                     </div>
                 </div>

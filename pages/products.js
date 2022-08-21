@@ -3,7 +3,7 @@ import BrandsServed from '../components/Home/BrandsServed/BrandsServed';
 import axios from 'axios';
 import { useState } from 'react';
 
-const RecentStories = () => {
+const Products = () => {
     const[value,setValue]=useState("")
     const inputData=(e)=>{
         setValue(e.target.value);
@@ -31,4 +31,4 @@ const RecentStories = () => {
     );
 };
 
-export default RecentStories;
+export default Products;

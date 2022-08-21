@@ -32,41 +32,38 @@ const NavBar = () => {
           }
         >
           <ul>
-            <li  className={router.pathname == "/" ? "activeu" : ""}>
-              <Link href="/">Home</Link>
-            </li>
+            
             <li  className={router.pathname == "/about" ? "activeu" : ""}>
-              <Link href="/about">about</Link>
+              <Link href="/about">ABOUT</Link>
             </li>
-            <li className={router.pathname == "/recentStories" ? "activeu" : ""}>
-              <Link href="/recentStories">RecentStories</Link>
+            <li className={router.pathname == "/products" ? "activeu" : ""}>
+              <Link href="/products">PRODUCTS</Link>
+            </li>
+            <li className={router.pathname == "/projects" ? "activeu" : ""}>
+              <Link href="/projects">PROJECTS</Link>
             </li>
             <li className={router.pathname == "/sustainability" ? "activeu" : ""}>
-              <Link href="/sustainability">Sustainability</Link>
+              <Link href="/sustainability">SUSTAINABILITY</Link>
             </li>
             <li className={router.pathname == "/career" ? "activeu" : ""}>
-              <Link href="/career">Career</Link>
+              <Link href="/career">CAREER</Link>
             </li>
 
             <li className={router.pathname == "/contact" ? "activeu" : ""}>
-              <Link href="/contact">contact</Link>
+              <Link href="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>
 
         {/* 3rd social media links */}
         <div className="social-media">
-          <ul className="social-media-desktop">
-            {/* <div className="main-header__right__call-icon">
-                <span className="icon-phone-ringing">
-                <FaYoutubeSquare className="youtube" />
-                </span>
-              </div> */}
+          {/* <ul className="social-media-desktop">
+            
             <li>
               <h6>Have waste pickup?</h6>
               <h6>+ 1- (246) 333-0088</h6>
             </li>
-          </ul>
+          </ul> */}
 
           {/* hamburget menu start  */}
           <div className="hamburger-menu">

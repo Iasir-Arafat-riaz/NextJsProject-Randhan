@@ -5,7 +5,7 @@ import {BiRightArrow} from "react-icons/bi"
 
 const WeDecided = () => {
     return (
-        <section className="we-dedicatedv mt-2">
+        <section className="we-dedicatedv mt-2 mb-5">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6">
