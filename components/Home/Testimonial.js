@@ -62,9 +62,9 @@ const Testimonial = () => {
                 <Image src={testiImg6} alt="img" />
               </div> */}
 
-              <Carousel className="owl-carousel owl-theme thm-owl__carousel testimonial-one__carousel">
+              <Carousel className="  testimonial-one__carousel shadow-lg">
                 {/* Testimonial One Single */}
-                <Carousel.Item className="testimonial-one__single">
+                <Carousel.Item className="testimonial-one__single  ">
                   <div className="testimonial-one__feedback-box">
                     <div className="testimonial-one__feedback">
                       <a href="#">
@@ -88,7 +88,7 @@ const Testimonial = () => {
                     </h3>
                   </div>
                   <p className="testimonial-one__text">
-                    Proin a lacus arcu. Nullam id dui eu orci maximus. Cras at
+                    one lacus arcu. Nullam id dui eu orci maximus. Cras at
                     auctor lectus, vel pretium tellus. className aptent sociosqu
                     ad litora torquent per conubia nostra.
                   </p>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bg from "./footerImg/site-footer-bg.jpg";
+import bg from "../../public/Images/footer/footer.jpg";
 import footerLogo from "./footerImg/footer-logo.png";
 
 
@@ -10,17 +10,19 @@ import {
   faArrowRight,
   faLocation,
   faMessage,
-  faBicycle
+  faBicycle,
+  faChampagneGlasses
 } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
+  console.log(bg)
   return (
     <>
       <footer className="site-footer">
         <div
           className="site-footer-bg"
           style={{
-            backgroundImage: `url(https://i.ibb.co/hRZqVhw/site-footer-bg.jpg)`,
+            backgroundImage: `url(${bg.src})`,
           }}
         ></div>
         {/* <Image src={bg}></Image> */}
@@ -31,7 +33,7 @@ const Footer = () => {
                 {/* <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a> */}
                 <Link href="/">
                   <a>
-                    <Image src={footerLogo} />
+                    <Image src={footerLogo}/>
                   </a>
                 </Link>
               </div>

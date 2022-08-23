@@ -64,7 +64,7 @@ const ContactWithUs = () => {
           <div className="col-xl-6 col-lg-6">
             <div className="contact-one__right">
               <form
-                onClick={contactFormSubmit}
+                onSubmit={contactFormSubmit}
                 className="contact-one__form contact-form-validated"
                 noValidate="novalidate"
               >

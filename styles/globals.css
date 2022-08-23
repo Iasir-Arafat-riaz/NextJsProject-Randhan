@@ -1330,8 +1330,8 @@ ul {
 .counter-one {
   position: relative;
   display: block;
-  background-color: var(--wostin-base);
-  padding: 120px 0 90px;
+  /* background-color: var(--wostin-base); */
+  padding: 90px 0 90px;
 }
 
 .counter-one-bg-box {
@@ -1340,8 +1340,8 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--wostin-base);
-  z-index: 1;
+  /* background-color: var(--wostin-base); */
+  z-index: -1;
 }
 
 .counter-one-bg {
@@ -1355,7 +1355,7 @@ ul {
   background-position: center;
   z-index: 1;
   mix-blend-mode: luminosity;
-  opacity: 0.05;
+  /* opacity: 0.05; */
 }
 
 .counter-one__single {
@@ -1384,7 +1384,8 @@ ul {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(var(--wostin-black-rgb), 0.5);
+  /* background-color: rgba(var(--wostin-black-rgb), 0.5); */
+  background-color: rgba(0, 0, 0, 0.671);
   content: "";
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -1392,7 +1393,7 @@ ul {
 }
 
 .counter-one__single:hover:before {
-  background-color: rgba(var(--wostin-black-rgb), 1);
+  /* background-color: rgba(var(--wostin-black-rgb), 1); */
 }
 
 .counter-one__top {
@@ -1735,7 +1736,8 @@ ul {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background-color: var(--wostin-primary);
+  background-color: var(--wostin-base);
+  
   padding-left: 80px;
   padding-right: 125px;
   padding-top: 59px;
@@ -2160,7 +2162,8 @@ ul {
 .testimonial-one__single {
   position: relative;
   /* display: block; */
-  background-color: white;
+  background-color: #95192a5b;
+  color: black;
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
   padding: 44px 50px 60px;
@@ -2544,7 +2547,7 @@ ul {
 .site-footer {
   position: relative;
   display: block;
-  background-color: var(--wostin-base);
+  background-color: #95192adc;
   z-index: 1;
 }
 
@@ -2580,7 +2583,7 @@ ul {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 42px 0;
+  padding: 12px 0;
 }
 
 .site-footer__top-logo {
@@ -2654,7 +2657,7 @@ ul {
 .site-footer__middle {
   position: relative;
   display: block;
-  padding: 96px 0 108px;
+  padding: 12px 0 40px;
 }
 
 .footer-widget__about {
@@ -2687,7 +2690,7 @@ ul {
 }
 
 .footer-widget__newsletter-input-box input[type="email"] {
-  height: 64px;
+  height: 54px;
   width: 100%;
   border: none;
   outline: none;
@@ -2732,7 +2735,7 @@ ul {
   color: var(--wostin-white);
   line-height: 34px;
   font-weight: 700;
-  margin-bottom: 28px;
+  margin-bottom: 12px;
 }
 
 .footer-widget__links-list {
@@ -10386,7 +10389,7 @@ li {
   text-transform: capitalize;
   color: rgba(0, 0, 3, 0.8);
   transition: 0.5s;
-  margin-right: 25px;
+  margin-right: 35px;
   font-weight: 700;
 }
 .menu-link ul li:hover > a {
@@ -10634,5 +10637,32 @@ li {
   background-color: rgba(53, 62, 50, 0.8);
   z-index: -1;
 }
+.serviceImage{
+  width: 500px;
+}
+.serviceInnerContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.carousel-control-prev-icon {
+  display: none;
+}
+.carousel-control-next-icon{
+  display: none;
+}
+
+#background-video{
+
+  height: 100%;
+  width: 100%;
+  float: left;
+  top: 0;
+  padding: none;
+  position: fixed; /* optional depending on what you want to do in your app */
+  
+  
+  }
 /*# sourceMappingURL=wostin.css.map */

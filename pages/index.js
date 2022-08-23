@@ -18,6 +18,8 @@ import Projects from "../components/Home/Projects";
 import Testimonial from "../components/Home/Testimonial";
 import LatestNews from "../components/Home/LatestNews";
 import BrandsServed from "../components/Home/BrandsServed/BrandsServed";
+import ServiceProvide from "../components/Home/ServiceProvide";
+import Test from "../components/Test";
 
 
 export default function Home() {
@@ -29,11 +31,13 @@ export default function Home() {
       <Industries/>
       <WeDecided/>
       <Counter/>
-      <Services/>
+      {/* <Services/> */}
+      <ServiceProvide/>
       <HaveWaste/>
       <Projects/>
       <BrandsServed/>
       <Testimonial/>
+      {/* <Test/> */}
       {/* <LatestNews/> */}
     </>
   );
